@@ -1,0 +1,299 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*estilo del primer encabezado de la pagina*/
+
+.encabezado1 > ul { 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:white;
+    gap:3rem;
+    list-style: none;
+    height: 50px;
+    margin-right: 150px;
+}
+
+.encabezado1{
+    background-color: #1b1b1b;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*estilos Css del segundo encabezado de la pagina*/
+.encabezado2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 5rem;
+    margin-bottom: 12px;
+    background-color: white;
+
+}
+
+.navegacion1 > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    list-style: none;
+}
+
+.boton1{
+    width:150px;
+    height:30px;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 700;
+}
+
+/*etilos de fondo de la pagina web*/
+
+.imagen_fondo{
+    width: 100%;
+    position:absolute;
+    
+  
+
+}
+
+.contenedor_viaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.Vuelos_fechas{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    margin-top:50px;
+    background-color:transparent;
+    width:90%;
+    border-radius:25px;
+    height: 120px;
+    box-shadow: 0 0 10px rgba(8, 1, 20, 0.7);
+}
+
+.ida_vuelta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width:200px;
+    height:30px;
+    margin-left: 2rem;
+}
+
+.boton2 > button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 2rem;
+
+}
+
+/*destinos,fechas,opciones*/
+.option{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color:white;
+    border-radius: 10px;
+    height: 100px;
+    width:1365px;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px rgba(8, 1, 20, 0.7);
+
+   
+
+}
+
+.content_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+.publicidad1 >img{
+    width: 500px;
+    height: 500px;
+
+}
+
+.publicidad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    margin-top: 8rem;
+    
+}
+
+.imagen_gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+   
+}
+
+.texto1{
+    background-color: red;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+}
+
+.contenedor_publicidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 100px;
+}
+
+
+.publicidad2{ 
+    position: relative;
+    margin-top: 30px;
+    border-radius: 10px;
+    gap: 3rem;
+    
+
+}
+
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position:absolute;
+    background-color:white;
+    color: black;
+    width: 350px;
+    height: 65px;
+    gap: 2rem;
+    bottom:10px; left: 25px;
+    border-radius: 10px;
+    
+
+
+}
+
+.publicidad2 > div > img{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 250px;
+width: 420px;
+border-radius: 10px;
+gap: 3rem;
+
+
+
+
+}
+
+.contenedor_publicidad1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+
+}
+
+/*esto es una prueba*/
+
+
+/*contenedor principal*/
+
+.contenedor_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 290px;
+    height: 265px;
+    background:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;    
+}
+
+.text {
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    
+}
+
+.vuela_h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.text h3 {
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+
+/*efecto hover en el contenedor*/
+.container:hover{
+    transform: translateY(0px) scale(1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
